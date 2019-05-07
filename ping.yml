@@ -1,5 +1,5 @@
 ---
-- hosts: appservice
+- hostsxxx: appservice
   gather_facts: no
 
   tasks:
