@@ -1,5 +1,5 @@
 ---
-- hosts: appservice
+- hosts: 192.168.15.128
   gather_facts: no
 
   tasks:
