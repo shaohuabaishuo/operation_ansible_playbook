@@ -1,5 +1,5 @@
 ---
-- hosts: apservice
+- hosts: appservice
   remote_user: root
   
   tasks:
