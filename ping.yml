@@ -1,5 +1,5 @@
 ---
-- hosts: 192.168.15.128
+- hosts: all
   gather_facts: no
 
   tasks:
