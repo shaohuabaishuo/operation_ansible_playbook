@@ -1,6 +1,5 @@
 ---
 - hosts: appservice
-  remote_user: root
   gather_facts: no
 
   tasks:
