@@ -1,8 +1,8 @@
 ---
-- hostsxxx: appservice
+- hosts: appservice
   gather_facts: no
 
   tasks:
     - name: ping
-      file: name=/data/test state=touch
+      file: name=/data/test.txt state=touch
    
