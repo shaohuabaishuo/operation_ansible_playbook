@@ -1,0 +1,11 @@
+---
+- hosts: apservice
+  remote_user: root
+  
+  tasks:
+    - name: install httpd package
+      yum: name=httpd
+    - name: copy conf file
+      copy: src=/data/files/httpd.conf  dest=/etc/httpd/conf/  backup=yes
+    - name: start service
+      service : name=httpd state=started enabled=yes
